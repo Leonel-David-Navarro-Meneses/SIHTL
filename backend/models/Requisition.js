@@ -8,6 +8,7 @@ class Requisition {
         this.justification = justification;
         this.type = type;
         this.createdAt = createdAt;
+        
     }
 }
 
