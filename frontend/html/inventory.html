@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="inventory-container">
+        <h2>Inventario</h2>
+        <div class="filters">
+            <input type="text" id="search" placeholder="Buscar producto">
+            <input type="number" id="minPrice" placeholder="Precio mínimo">
+            <input type="number" id="maxPrice" placeholder="Precio máximo">
+            <button id="searchBtn">Buscar</button>
+        </div>
+
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <button id="requestBtn">Solicitar producto</button>
+    </div>
+
+    <script src="../js/inventory.js"></script>
+</body>
+</html>
